@@ -1,7 +1,11 @@
 @import url('reset.css');
 
 body{
+<<<<<<< HEAD
 	background:rgb(26, 177, 124);
+=======
+	background:#000;
+>>>>>>> 3d11a93e748df12fcf9596b314a80037af8bc40c
 	color:#fff;
 	font-family: 'PT Sans Narrow', Arial, sans-serif;
 }

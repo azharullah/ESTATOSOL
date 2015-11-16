@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 Images by http://www.flickr.com/photos/jinthai/
 
+=======
+Images by http://www.flickr.com/photos/jinthai/
+
+>>>>>>> 3d11a93e748df12fcf9596b314a80037af8bc40c
