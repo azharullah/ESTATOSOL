@@ -1,0 +1,43 @@
+.properties
+{
+	border : 2px dotted red;
+	display: block;
+	background-position: left;
+	background-size: 20%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.properties img
+{
+	width: 200px;
+	float: left;
+}
+
+.type
+{
+	color: red;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.pdet1
+{
+	width: 25%;
+	float: left;
+	margin-left: 20%;
+}
+
+.pdet2
+{
+	width: 25%;
+	float: left;
+	margin-left: 6%;
+}
+
+.pdet3
+{
+	width: 25%;
+	float: right;
+	margin-left: -2%;
+}

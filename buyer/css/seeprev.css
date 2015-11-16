@@ -1,0 +1,50 @@
+.class
+{
+	width: 5%;
+	float: right;
+	margin-left: -2%;
+}
+
+.properties
+{
+	border : 2px dotted red;
+	display: block;
+	background-position: left;
+	background-size: 20%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.properties img
+{
+	width: 200px;
+	float: left;
+}
+
+.type
+{
+	color: red;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.pdet1
+{
+	width: 23.5%;
+	float: left;
+	margin-left: 23.5%;
+}
+
+.pdet2
+{
+	width: 23.5%;
+	float: left;
+	margin-left: -2%;
+}
+
+.pdet3
+{
+	width: 23.5%;
+	float: left;
+	margin-left: -2%;
+}

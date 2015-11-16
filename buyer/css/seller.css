@@ -1,0 +1,92 @@
+body
+{
+	background-color: black;
+	color: lime;
+	font-size: 13px;
+}
+
+#seeprev, #logout, #seefav, input[type=submit]
+{
+	padding: 7px 7px 7px 7px;
+	color: black;
+	background-color: limegreen;
+	box-sizing: border-box;
+	border-radius: 20px;
+	border : 2px solid limegreen;
+	box-shadow: 0px 3px 3px 0px green;
+}
+
+#seeprev:hover, #logout:hover, #seefav:hover, input[type=submit]:hover
+{
+	padding: 7px 7px 7px 7px;
+	color: black;
+	font-weight: bold;
+	background-color: lime;
+	box-sizing: border-box;
+	border-radius: 20px;
+	border : 3px solid lime;
+	box-shadow: none;
+}
+
+#rent
+{
+	position: fixed;
+	width: 48%;
+	left: 0%;
+}
+
+#sale
+{
+	position: fixed;
+	width: 48%;
+	right: 0%;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    margin-top: 15px;
+}
+
+input,select {
+  display: inline-block;
+  float: left;
+  width: 120px;
+  margin-left: 2%;
+  margin-top: 15px;
+}
+
+input:focus, select:focus
+{
+	background: lightgreen;
+}
+
+input[type=submit]
+{
+	margin-top: 50px;
+}
+
+input[type=file]
+{
+	width: 200px;
+}
+
+select
+{
+	
+}
+
+option
+{
+	color: red;
+}
+
+#errmsg
+{
+	color: red;
+	font-size: 30px;
+	text-align: center;
+}
