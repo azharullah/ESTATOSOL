@@ -48,9 +48,26 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
+
+	<style>
+		.redirect
+		{
+			text-decoration: none;
+			color: #fff;
+			background-color: #26a69a;
+			text-align: center;
+			letter-spacing: .5px;
+			transition: .2s ease-out;
+			cursor: pointer;
+		}
+
+		.redirect
+		{
+			background-color: #2bbbad;
+		}
+	</style>
 
 </body>
 </html>

@@ -1,11 +1,12 @@
 body
 {
-	background-color: black;
-	color: lime;
+	background-color: lightblue;
+	font-family: 'Raleway', sans-serif;
+	color: darkblue;
 	font-size: 13px;
 }
 
-#seeprev, #logout, #seefav, input[type=submit]
+/*#seeprev, #logout, #seefav, input[type=submit]
 {
 	padding: 7px 7px 7px 7px;
 	color: black;
@@ -14,9 +15,9 @@ body
 	border-radius: 20px;
 	border : 2px solid limegreen;
 	box-shadow: 0px 3px 3px 0px green;
-}
+}*/
 
-#seeprev:hover, #logout:hover, #seefav:hover, input[type=submit]:hover
+/*#seeprev:hover, #logout:hover, #seefav:hover, input[type=submit]:hover
 {
 	padding: 7px 7px 7px 7px;
 	color: black;
@@ -26,13 +27,23 @@ body
 	border-radius: 20px;
 	border : 3px solid lime;
 	box-shadow: none;
-}
+}*/
 
 #rent
 {
 	position: fixed;
 	width: 48%;
 	left: 0%;
+}
+
+.input-field, #compulsory1, #optional1, #compulsory2, #optional2
+{
+	max-width: 30%;
+}
+
+#rent label, label, #sale label
+{
+	color: red;
 }
 
 #sale
@@ -42,46 +53,11 @@ body
 	right: 0%;
 }
 
-label{
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 250px;
-    text-align: right;
-    margin-top: 15px;
-}
-
-input,select {
-  display: inline-block;
-  float: left;
-  width: 120px;
-  margin-left: 2%;
-  margin-top: 15px;
-}
-
-input:focus, select:focus
-{
-	background: lightgreen;
-}
-
 input[type=submit]
 {
-	margin-top: 50px;
-}
-
-input[type=file]
-{
-	width: 200px;
-}
-
-select
-{
-	
-}
-
-option
-{
-	color: red;
+	padding: 10px;
+	color: darkblue;
+	font-weight: bold;
 }
 
 #errmsg
@@ -89,4 +65,27 @@ option
 	color: red;
 	font-size: 30px;
 	text-align: center;
+}
+
+h4{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+hr{
+	color: black;
+	border: 1px solid black;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:   blue;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:   blue;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:   blue;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:   blue;
 }

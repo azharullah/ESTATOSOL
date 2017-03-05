@@ -12,6 +12,7 @@
 
 	$name = $_SESSION['name'];
 	$buyerid = $_SESSION['buyer'];
+	error_reporting(0);
 
 ?>
 
@@ -22,12 +23,15 @@
 	<title> <?php echo $name; ?> </title>
 	<link rel="stylesheet" type="text/css" href="css/seeprev.css">
 	<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<!--<script src="../js/materialize.js"></script>-->
+	<link rel="stylesheet" href="../css/materialize.css">
 </head>
 <body>
 
 	<center>
 	
-	<h1> Hi <?php echo $name; ?>...Here are your previously favourited properties </h1>
+	<h4> Hi <?php echo $name; ?>...Here are your previously favourited properties </h4>
 
 	<?php  
 

@@ -1,3 +1,14 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.class
+{
+	width: 5%;
+	float: right;
+	margin-left: -2%;
+}
+
 .properties
 {
 	border : 2px dotted red;
@@ -6,6 +17,7 @@
 	background-size: 20%;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	margin-top: 20px;
 }
 
 .properties img
@@ -23,21 +35,26 @@
 
 .pdet1
 {
-	width: 25%;
+	width: 23.5%;
 	float: left;
-	margin-left: 20%;
+	margin-left: 23.5%;
 }
 
 .pdet2
 {
-	width: 25%;
+	width: 23.5%;
 	float: left;
-	margin-left: 6%;
+	margin-left: -2%;
 }
 
 .pdet3
 {
-	width: 25%;
-	float: right;
+	width: 23.5%;
+	float: left;
 	margin-left: -2%;
+}
+
+.get, .fav
+{
+	float: right;
 }

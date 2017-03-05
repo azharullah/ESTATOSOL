@@ -21,12 +21,15 @@
 	<meta charset="UTF-8">
 	<title> <?php echo $name; ?> </title>
 	<link rel="stylesheet" type="text/css" href="css/seeprev.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<!--<script src="../js/materialize.js"></script>-->
+	<link rel="stylesheet" href="../css/materialize.css">
 </head>
 <body>
 
 	<center>
 	
-	<h1> Hi <?php echo $name; ?>...Here are your previously purchased properties </h1>
+	<h4> Hi <?php echo $name; ?>...Here are your previously purchased properties </h4>
 
 	<?php  
 
@@ -51,7 +54,7 @@
 				$city = $row3['CITY'];
 				$state = $row3['STATE'];
 				$zip = $row3['ZIP'];
-				echo "<div class='properties' style='background-image: url($url)'>";
+				echo "<div class='properties'>";
 					echo '<div class="pdet1">';
 						echo '<center><p class="type">PROPERTY ID</p></center>';
 						echo '<p> '.$propid.' </p>';

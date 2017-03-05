@@ -12,6 +12,7 @@
 
 	$name = $_SESSION['name'];
 	$seller = $_SESSION['seller'];
+	error_reporting(0);
 
 ?>
 
@@ -21,6 +22,9 @@
 	<meta charset="UTF-8">
 	<title> <?php echo $name; ?> </title>
 	<link rel="stylesheet" type="text/css" href="css/seeprev.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="css/materialize.css">
+
 </head>
 <body>
 

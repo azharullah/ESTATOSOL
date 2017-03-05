@@ -1,3 +1,7 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
 .class
 {
 	width: 5%;
@@ -13,6 +17,7 @@
 	background-size: 20%;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	margin-top: 20px;
 }
 
 .properties img
@@ -47,4 +52,9 @@
 	width: 23.5%;
 	float: left;
 	margin-left: -2%;
+}
+
+.get, .fav
+{
+	float: right;
 }

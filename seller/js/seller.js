@@ -14,7 +14,7 @@ $(document).ready(function(){
 		{
 			$("#optional1").empty();
 			$("#optional1").append('<label>No of Bedrooms</label> <input type="number" name="bhk1" placeholder="BHK" required> <br>');
-			$("#optional1").append('<label>Parking available? : </label> <input type="radio" name="parking1" value="Yes"> Yes <input type="radio" name="parking1" value="No"> No <br>');
+			$("#optional1").append('<p>Parking available?</p><input name="parking1" type="radio" id="p11" /><label for="p11">Yes</label><input name="parking1" type="radio" id="p12" /><label for="p12">No</label><br><br>');
 			$("#optional1").append('<label>Level/Floor number </label> <input type="number" name="floorno1" placeholder="Floor no" required> <br>');
 		}
 		if(type == "Villa")
@@ -25,7 +25,7 @@ $(document).ready(function(){
 		if(type == "Independent House")
 		{
 			$("#optional1").empty();
-			$("#optional1").append('<label>Parking available? : </label> <input type="radio" name="parking1" value="Yes"> Yes <input type="radio" name="parking1" value="No"> No <br>');
+			$("#optional1").append('<p>Parking available?</p><input name="parking1" type="radio" id="p11" /><label for="p11">Yes</label><input name="parking1" type="radio" id="p12" /><label for="p12">No</label><br><br>');
 		}
 		if(type == "Plot")
 		{
@@ -45,7 +45,7 @@ $(document).ready(function(){
 		{
 			$("#optional2").empty();
 			$("#optional2").append('<label>No of Bedrooms</label> <input type="number" name="bhk2" placeholder="BHK" required> <br>');
-			$("#optional2").append('<label>Parking available? : </label> <input type="radio" name="parking2" value="Yes"> Yes <input type="radio" name="parking2" value="No"> No <br>');
+			$("#optional2").append('<p>Parking available?</p><input name="parking2" type="radio" id="p21" /><label for="p21">Yes</label><input name="parking2" type="radio" id="p22" /><label for="p22">No</label><br><br>');
 			$("#optional2").append('<label>Level/Floor number </label> <input type="number" name="floorno2" placeholder="Floor no" required> <br>');
 		}
 		if(type == "Villa")
@@ -56,7 +56,7 @@ $(document).ready(function(){
 		if(type == "Independent House")
 		{
 			$("#optional2").empty();
-			$("#optional2").append('<label>Parking available? : </label> <input type="radio" name="parking2" value="Yes"> Yes <input type="radio" name="parking2" value="No"> No <br>');
+			$("#optional2").append('<p>Parking available?</p><input name="parking2" type="radio" id="p21" /><label for="p21">Yes</label><input name="parking2" type="radio" id="p22" /><label for="p22">No</label><br><br>');
 		}
 		if(type == "Plot")
 		{

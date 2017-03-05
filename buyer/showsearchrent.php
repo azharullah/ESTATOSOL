@@ -1947,6 +1947,9 @@
 		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
 		<script type="text/javascript" src="js/seller.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/seeprev.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<!--<script src="../js/materialize.js"></script>-->
+		<link rel="stylesheet" href="../css/materialize.css">
 
 	</head>
 
@@ -1973,7 +1976,7 @@
 			}).done(function(data){
 				var azhar = JSON.parse(data)
 				alert(azhar);
-				window.location.reload();
+				window.location = "index.php";
 			})
 		})
 
@@ -1998,7 +2001,7 @@
 			}).done(function(data){
 				var azhar = JSON.parse(data)
 				alert(azhar);
-				window.location.reload();
+				window.location = "index.php";
 			})
 		})
 

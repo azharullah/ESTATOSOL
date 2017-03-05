@@ -1,13 +1,9 @@
 @import url('reset.css');
 
 body{
-<<<<<<< HEAD
-	background:rgb(26, 177, 124);
-=======
-	background:#000;
->>>>>>> 3d11a93e748df12fcf9596b314a80037af8bc40c
 	color:#fff;
-	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
+	background-size: cover;
 }
 a{
 	color:#fff;
@@ -41,11 +37,10 @@ img.mb_bgimage{
 	position:absolute;
 	top:10px;
 	left:10px;
-	font-size:86px;
+	font-size:75px;
 	font-weight: 600;
-	color:#000;
+	color: orangered;
 	text-shadow:0px 0px 1px #fff;
-	font-family:"Astloch", Arial, sans-serif;
 	z-index:4;
 }
 .mb_menu{
@@ -103,7 +98,6 @@ span.mb_close:hover{
 	display:none;
 }
 .mb_content h2{
-	font-family: 'Signika', sans-serif;
 	text-shadow:0px 0px 1px #fff;
 	font-size:42px;
 	background:transparent url(../images/line.png) repeat-x bottom left;
@@ -148,7 +142,6 @@ ul.mb_imagelist li img:hover{
 	border:none;
 	background:#fff;
 	width:200px;
-	font-family:Arial;
 	color:#555;
 	padding:4px;
 }
@@ -160,7 +153,6 @@ button{
 	border:2px solid green;
 	color:#000;
 	padding:10px 10px;
-	font-family: 'PT Sans Narrow', Arial, sans-serif;
 	cursor:pointer;
 }
 button:hover{
